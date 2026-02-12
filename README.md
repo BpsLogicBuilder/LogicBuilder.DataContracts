@@ -1,5 +1,7 @@
 ﻿# LogicBuilder.DataContracts
 
+[![NuGet](https://img.shields.io/nuget/v/LogicBuilder.DataContracts.svg)](https://www.nuget.org/packages/LogicBuilder.DataContracts)
+
 A .NET Standard 2.0 library that defines data transfer objects (DTOs) for real-time deployment of business rules during development from the [Logic Builder Client](https://github.com/BpsLogicBuilder/LogicBuilder) to Web API endpoints.
 
 ## Purpose
@@ -32,14 +34,14 @@ Represents a request to delete specific rule files from the target application.
 > **Note:** This class is obsolete. To delete all rules, select the top node in the treeview, which will select all nodes and use the `DeleteRulesData` class for each instance.
 
 ### VariableMetaData ⚠️ Obsolete
-> **Note:** This class is obsolete since LogicBuilder v2.0.0. It was used for standard forms which have been removed.
+> **Note:** This class is obsolete. It was used for standard forms which have been removed since LogicBuilder v2.0.0.
 
 ## Installation
 `dotnet add package LogicBuilder.DataContracts`
 
 ## Usage
 
-These DTOs are typically serialized as JSON or XML when transmitted between the Logic Builder client and your Web API. Implement endpoints in your API that accept these contracts to enable dynamic rule deployment.
+These DTOs are serialized as JSON when transmitted between the Logic Builder client and your Web API. Implement endpoints in your API that accept these contracts to enable dynamic rule deployment.
 
 ## Target Framework
 
