@@ -1,9 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace LogicBuilder.DataContracts
 {
+    [Obsolete("This class is obsolete. To delete all rules, select the top node in the treeview. This will select all nodes and use the DeleteRulesData class for each instance..")]
     public class DeleteAllRulesData
     {
         public string Application { get; set; }

@@ -2,6 +2,7 @@
 
 namespace LogicBuilder.DataContracts
 {
+    [Obsolete("This class is obsolete. It was used for standard forms which have been removed from LogicBuilder since v2.0.0.")]
     public class VariableMetaData
     {
         public string XmlData { get; set; }

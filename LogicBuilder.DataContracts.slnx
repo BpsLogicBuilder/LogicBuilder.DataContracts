@@ -1,4 +1,3 @@
 <Solution>
-  <Project Path="LogicBuilder.DataContracts.Tests/LogicBuilder.DataContracts.Tests.csproj" />
   <Project Path="LogicBuilder.DataContracts/LogicBuilder.DataContracts.csproj" />
 </Solution>
