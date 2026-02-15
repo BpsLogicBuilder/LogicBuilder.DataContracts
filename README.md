@@ -1,5 +1,7 @@
 ﻿# LogicBuilder.DataContracts
 
+[![Build Status](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/ci.yml/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/ci.yml)
+[![CodeQL](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/github-code-scanning/codeql)
 [![NuGet](https://img.shields.io/nuget/v/LogicBuilder.DataContracts.svg)](https://www.nuget.org/packages/LogicBuilder.DataContracts)
 
 A .NET Standard 2.0 library that defines data transfer objects (DTOs) for real-time deployment of business rules during development from the [Logic Builder Client](https://github.com/BpsLogicBuilder/LogicBuilder) to Web API endpoints.
