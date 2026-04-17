@@ -2,6 +2,7 @@
 
 [![Build Status](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/ci.yml/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/ci.yml)
 [![CodeQL](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/BpsLogicBuilder/LogicBuilder.DataContracts/actions/workflows/github-code-scanning/codeql)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=BpsLogicBuilder_LogicBuilder.DataContracts&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=BpsLogicBuilder_LogicBuilder.DataContracts)
 [![NuGet](https://img.shields.io/nuget/v/LogicBuilder.DataContracts.svg)](https://www.nuget.org/packages/LogicBuilder.DataContracts)
 
 A .NET Standard 2.0 library that defines data transfer objects (DTOs) for real-time deployment of business rules during development from the [Logic Builder Client](https://github.com/BpsLogicBuilder/LogicBuilder) to Web API endpoints.
